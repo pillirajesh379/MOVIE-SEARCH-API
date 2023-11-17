@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- logo. -->
+        <div class="container">
+            <p>Movie <b><span style="color:#d4aa11">Corn.</span></b></p>
+        </div>
+    </div>
+    <!-- end of logo -->
+    <!-- search container --> 
+    <div class="search-container">
+        <div class="search-element">
+            <h3>Search <span>Movie:</span></h3>
+            <input type="text" class="form-control" placeholder="Search Movie Title ...." id="movie-search-box" onkeyup ="findMovies()" onclick="findMovies()">
+            <div class="search-list" id="search-list">
+                <!-- list hear -->
+                <div class="search-list-item">
+                <div class="search-item-thumbnail">
+                    <img src="../ASSESTS/5.jpeg" alt="">
+              </div>
+                    <div class="search-item-info">
+                        <h3>Guardians of the Galaxy Vol. 2</h3>
+                        <p>2017</p>
+                    </div>
+               
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of search container. -->
+  <div class="container">
+    <div class="result-container">
+        <div class="result-grid" id="result-grid">
+            <!-- movie information hear -->
+            <!-- <div class="movie-poster">
+                <!-- <img src="../ASSESTS/5.jpeg" alt=""> -->
+                <div class="movie-info">
+                    <h3 class="movie-title">
+                        Guardians of the Galaxy Vol.2
+                    </h3>
+                    <ul class="movie-misc-info">
+                        <li class="year">Year: 2017</li>
+                        <li class="rated">Rated: PG-13</li>
+                        <li class="released">Released: 05 May 2017</li>
+                    </ul>
+                    <p class="genre"><b>Genre:</b> Action, Adventure, Comedy</p>
+                    <p class="writer"><b>Writer:</b> James Gunn, Don Abnett, Andy Lanning</p>
+                    <p class="actor"><b>Actors:</b> Charis Pratt, Zoe Saldana, Dave Bautista</p>
+                    <p class="plot"><b>Plot:</b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum possimus illo blanditiis recusandae? Molestiae, dolore!</p>
+                    <p class="language"><b>Language:</b> Telugu</p>
+                    <p class="awards"><b><i class="fas fa-awards"></i></b> NOminated for 1 Oscar</p>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+  </div>
+
+    <!-- result container. -->
+
+    
+
+
+    <script src="../JS/javascript.js"></script>
+</body>
+</html>
